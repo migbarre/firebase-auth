@@ -1,0 +1,38 @@
+{
+  "name": "firebase-auth",
+  "version": "1.0.0",
+  "description": "User authentication using Firebase",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "author": "miguelbarreto75@gmail.com",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon --exec babel-node ./lib/http/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migbarre/firebase-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/migbarre/firebase-auth/issues"
+  },
+  "homepage": "https://github.com/migbarre/firebase-auth#readme",
+  "dependencies": {
+    "body-parser": "latest",
+    "chalk": "^3.0.0",
+    "cross-env": "5.2.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.13",
+    "firebase": "^7.13.1",
+    "firebase-admin": "^8.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "nodemon": "^1.19.4"
+  }
+}
